@@ -30,7 +30,7 @@
 [![Helm](https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=white)](https://helm.sh/)
 [![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?logo=argo&logoColor=white)](https://argoproj.github.io/cd/)
 
-A **production-ready, fully containerized data platform** with batch ingestion, real-time streaming, a star-schema data warehouse, ML experiment tracking, a .NET 8 REST API, and full observability -- all orchestrated through **20 Docker services** managed by a single `docker compose` stack.
+A **fully containerized data platform** with batch ingestion, real-time streaming, a star-schema data warehouse, ML experiment tracking, a .NET 8 REST API, and full observability -- all orchestrated through **20 Docker services** managed by a single `docker compose` stack.
 
 ## Table of Contents
 
@@ -156,7 +156,7 @@ Staging Tables --> Dimension Load (customers, products, dates, devices) --> Fact
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/hoangsonww/End-to-End-Data-Pipeline.git
+git clone  https://github.com/ayouya03/Real-Time-Batch-Data-Platform.git
 cd End-to-End-Data-Pipeline
 
 # 2. Create environment file
@@ -561,18 +561,4 @@ cp .env.example .env
 # Edit .env with your values
 ```
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add your feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
----
-
-For questions or feedback, reach out on [GitHub](https://github.com/hoangsonww).
